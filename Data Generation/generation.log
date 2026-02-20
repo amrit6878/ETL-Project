@@ -1,0 +1,86 @@
+======================================================================
+LARGE-SCALE DATA GENERATION FOR AWS ETL PROCESSING
+Target: 3-4GB dataset (~10M transactions)
+======================================================================
+
+Memory available: 1.12GB
+Starting generation at: 2026-02-13 02:29:10
+
+
+[1/4] GENERATING CUSTOMERS (2,000,000 records)
+----------------------------------------------------------------------
+  Batch   1/10 (0 to 199,999)  Memory usage: 0.33GB  Batch   2/10 (200,000 to 399,999)  Memory usage: 0.34GB  Batch   3/10 (400,000 to 599,999)  Memory usage: 0.34GB  Batch   4/10 (600,000 to 799,999)  Memory usage: 0.34GB  Batch   5/10 (800,000 to 999,999)  Memory usage: 0.33GB  Batch   6/10 (1,000,000 to 1,199,999)  Memory usage: 0.33GB  Batch   7/10 (1,200,000 to 1,399,999)  Memory usage: 0.33GB  Batch   8/10 (1,400,000 to 1,599,999)  Memory usage: 0.33GB  Batch   9/10 (1,600,000 to 1,799,999)  Memory usage: 0.32GB  Batch  10/10 (1,800,000 to 1,999,999)  Memory usage: 0.33GB
+✓ Generated 2,000,000 customers in 10 files
+✓ Files saved in: generated-data/customers
+
+[2/4] GENERATING PRODUCTS (200,000 records)
+----------------------------------------------------------------------
+  Batch   1/4 (0 to 49,999)  Memory usage: 0.35GB  Batch   2/4 (50,000 to 99,999)  Memory usage: 0.35GB  Batch   3/4 (100,000 to 149,999)  Memory usage: 0.34GB  Batch   4/4 (150,000 to 199,999)  Memory usage: 0.31GB
+✓ Generated 200,000 products in 4 files
+✓ Files saved in: generated-data/products
+
+[3/4] GENERATING SALES REPRESENTATIVES (20,000 records)
+----------------------------------------------------------------------
+  Batch   1/1 (0 to 19,999)  Memory usage: 0.17GB
+✓ Generated 20,000 sales representatives in 1 files
+✓ Files saved in: generated-data/sales-reps
+
+[4/4] GENERATING TRANSACTIONS (50,000,000 records)
+----------------------------------------------------------------------
+  Batch   1/50 (0 to 999,999)  Memory usage: 1.03GB  Batch   2/50 (1,000,000 to 1,999,999)  Memory usage: 1.02GB  Batch   3/50 (2,000,000 to 2,999,999)  Memory usage: 1.04GB  Batch   4/50 (3,000,000 to 3,999,999)  Memory usage: 1.01GB  Batch   5/50 (4,000,000 to 4,999,999)  Memory usage: 0.93GB  Batch   6/50 (5,000,000 to 5,999,999)  Memory usage: 0.94GB  Batch   7/50 (6,000,000 to 6,999,999)  Memory usage: 1.01GB  Batch   8/50 (7,000,000 to 7,999,999)  Memory usage: 0.95GB  Batch   9/50 (8,000,000 to 8,999,999)  Memory usage: 0.92GB  Batch  10/50 (9,000,000 to 9,999,999)  Memory usage: 0.90GB  Batch  11/50 (10,000,000 to 10,999,999)  Memory usage: 0.87GB  Batch  12/50 (11,000,000 to 11,999,999)  Memory usage: 0.95GB  Batch  13/50 (12,000,000 to 12,999,999)  Memory usage: 1.06GB  Batch  14/50 (13,000,000 to 13,999,999)  Memory usage: 1.01GB  Batch  15/50 (14,000,000 to 14,999,999)  Memory usage: 0.78GB  Batch  16/50 (15,000,000 to 15,999,999)  Memory usage: 0.78GB  Batch  17/50 (16,000,000 to 16,999,999)  Memory usage: 1.03GB  Batch  18/50 (17,000,000 to 17,999,999)  Memory usage: 1.03GB  Batch  19/50 (18,000,000 to 18,999,999)  Memory usage: 0.97GB  Batch  20/50 (19,000,000 to 19,999,999)  Memory usage: 0.99GB  Batch  21/50 (20,000,000 to 20,999,999)  Memory usage: 1.02GB  Batch  22/50 (21,000,000 to 21,999,999)  Memory usage: 1.00GB  Batch  23/50 (22,000,000 to 22,999,999)  Memory usage: 1.02GB  Batch  24/50 (23,000,000 to 23,999,999)  Memory usage: 0.83GB  Batch  25/50 (24,000,000 to 24,999,999)  Memory usage: 1.01GB  Batch  26/50 (25,000,000 to 25,999,999)  Memory usage: 1.02GB  Batch  27/50 (26,000,000 to 26,999,999)  Memory usage: 0.93GB  Batch  28/50 (27,000,000 to 27,999,999)  Memory usage: 1.00GB  Batch  29/50 (28,000,000 to 28,999,999)  Memory usage: 0.93GB  Batch  30/50 (29,000,000 to 29,999,999)  Memory usage: 0.88GB  Batch  31/50 (30,000,000 to 30,999,999)  Memory usage: 0.94GB  Batch  32/50 (31,000,000 to 31,999,999)  Memory usage: 0.97GB  Batch  33/50 (32,000,000 to 32,999,999)  Memory usage: 0.94GB  Batch  34/50 (33,000,000 to 33,999,999)  Memory usage: 0.99GB  Batch  35/50 (34,000,000 to 34,999,999)  Memory usage: 0.91GB  Batch  36/50 (35,000,000 to 35,999,999)  Memory usage: 0.92GB  Batch  37/50 (36,000,000 to 36,999,999)  Memory usage: 0.88GB  Batch  38/50 (37,000,000 to 37,999,999)  Memory usage: 1.03GB  Batch  39/50 (38,000,000 to 38,999,999)  Memory usage: 1.68GB  Batch  40/50 (39,000,000 to 39,999,999)  Memory usage: 1.56GB  Batch  41/50 (40,000,000 to 40,999,999)  Memory usage: 1.34GB  Batch  42/50 (41,000,000 to 41,999,999)  Memory usage: 0.95GB  Batch  43/50 (42,000,000 to 42,999,999)  Memory usage: 1.22GB  Batch  44/50 (43,000,000 to 43,999,999)  Memory usage: 1.20GB  Batch  45/50 (44,000,000 to 44,999,999)  Memory usage: 1.09GB  Batch  46/50 (45,000,000 to 45,999,999)  Memory usage: 1.14GB  Batch  47/50 (46,000,000 to 46,999,999)  Memory usage: 1.18GB  Batch  48/50 (47,000,000 to 47,999,999)  Memory usage: 0.86GB  Batch  49/50 (48,000,000 to 48,999,999)  Memory usage: 1.00GB  Batch  50/50 (49,000,000 to 49,999,999)  Memory usage: 0.95GB
+✓ Generated 50,000,000 transactions in 50 files
+✓ Files saved in: generated-data/transactions
+
+======================================================================
+✓ DATA GENERATION COMPLETE!
+======================================================================
+Completion time: 910.47 seconds (15.17 minutes)
+Final dataset size: 2.09GB
+Completion time: 2026-02-13 02:44:21
+
+Generated data structure:
+  - generated-data/customers/       (11 parquet files)
+  - generated-data/products/        (5 parquet files)
+  - generated-data/sales-reps/      (1 parquet files)
+  - generated-data/transactions/    (51 parquet files)
+
+Ready for AWS ETL processing!
+
+[1/4] GENERATING CUSTOMERS
+------------------------------------------------------------
+Generating 2000000 customers in batches of 200000...
+  Batch 1/10 (0 to 199999)  Batch 2/10 (200000 to 399999)  Batch 3/10 (400000 to 599999)  Batch 4/10 (600000 to 799999)  Batch 5/10 (800000 to 999999)  Batch 6/10 (1000000 to 1199999)  Batch 7/10 (1200000 to 1399999)  Batch 8/10 (1400000 to 1599999)  Batch 9/10 (1600000 to 1799999)  Batch 10/10 (1800000 to 1999999)  Batch 10/10 (1800000 to 1999999)  
+
+✓ Generated 2,000,000 customers in 10 files
+✓ Files saved in: generated-data/customers
+
+[2/4] GENERATING PRODUCTS
+------------------------------------------------------------
+Generating 200000 products in batches of 50000...
+  Batch 1/4 (0 to 49999)  Batch 2/4 (50000 to 99999)  Batch 3/4 (100000 to 149999)  Batch 4/4 (150000 to 199999)  Batch 4/4 (150000 to 199999)  
+✓ Generated 200000 products in 4 files
+✓ Files saved in: generated-data/products
+
+[3/4] GENERATING SALES REPRESENTATIVES
+------------------------------------------------------------
+Generating 20000 sales representatives...
+✓ Generated 20000 sales representatives
+✓ Files saved in: generated-data/sales-reps
+
+[4/4] GENERATING TRANSACTIONS
+------------------------------------------------------------
+Generating 50000000 transactions in batches of 1000000...
+  Batch 1/50 (0 to 999999)  Batch 2/50 (1000000 to 1999999)  Batch 3/50 (2000000 to 2999999)  Batch 4/50 (3000000 to 3999999)  Batch 5/50 (4000000 to 4999999)  Batch 6/50 (5000000 to 5999999)  Batch 7/50 (6000000 to 6999999)  Batch 8/50 (7000000 to 7999999)  Batch 9/50 (8000000 to 8999999)  Batch 10/50 (9000000 to 9999999)  Batch 11/50 (10000000 to 10999999)  Batch 12/50 (11000000 to 11999999)  Batch 13/50 (12000000 to 12999999)  Batch 14/50 (13000000 to 13999999)  Batch 15/50 (14000000 to 14999999)  Batch 16/50 (15000000 to 15999999)  Batch 17/50 (16000000 to 16999999)  Batch 18/50 (17000000 to 17999999)  Batch 19/50 (18000000 to 18999999)  Batch 20/50 (19000000 to 19999999)  Batch 21/50 (20000000 to 20999999)  Batch 22/50 (21000000 to 21999999)  Batch 23/50 (22000000 to 22999999)  Batch 24/50 (23000000 to 23999999)  Batch 25/50 (24000000 to 24999999)  Batch 26/50 (25000000 to 25999999)  Batch 27/50 (26000000 to 26999999)  Batch 28/50 (27000000 to 27999999)  Batch 29/50 (28000000 to 28999999)  Batch 30/50 (29000000 to 29999999)  Batch 31/50 (30000000 to 30999999)  Batch 32/50 (31000000 to 31999999)  Batch 33/50 (32000000 to 32999999)  Batch 34/50 (33000000 to 33999999)  Batch 35/50 (34000000 to 34999999)  Batch 36/50 (35000000 to 35999999)  Batch 37/50 (36000000 to 36999999)  Batch 38/50 (37000000 to 37999999)  Batch 39/50 (38000000 to 38999999)  Batch 40/50 (39000000 to 39999999)  Batch 41/50 (40000000 to 40999999)  Batch 42/50 (41000000 to 41999999)  Batch 43/50 (42000000 to 42999999)  Batch 44/50 (43000000 to 43999999)  Batch 45/50 (44000000 to 44999999)  Batch 46/50 (45000000 to 45999999)  Batch 47/50 (46000000 to 46999999)  Batch 48/50 (47000000 to 47999999)  Batch 49/50 (48000000 to 48999999)  Batch 50/50 (49000000 to 49999999)  Batch 50/50 (49000000 to 49999999)  
+✓ Generated 50000000 transactions in 50 files
+✓ Files saved in: generated-data/transactions
+
+============================================================
+✓ DATA GENERATION COMPLETE!
+============================================================
+Total time: 899.15 seconds (14.99 minutes)
+
+Generated data structure:
+  - generated-data/customers/  (10 parquet files)
+  - generated-data/products/   (5 parquet files)
+  - generated-data/sales-reps/ (1 parquet file)
+  - generated-data/transactions/ (20 parquet files)
